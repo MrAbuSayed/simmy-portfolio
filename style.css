@@ -1,0 +1,415 @@
+*{
+    margin: 0;box-sizing: border-box;overflow-x: hidden;
+}
+body{
+    background-color: rgb(49, 40, 106);
+}
+
+.navber{
+ background: linear-gradient(to right, rgb(62, 49, 145), rgb(30, 78, 30),rgb(106, 40, 103),rgb(40, 95, 106));
+ padding: .5rem;display: flex;width: 100%;
+ justify-content: space-between;align-items: center;position: fixed;
+ z-index: 10;
+}
+
+.logo{
+    width: 13rem;border-radius: 15rem;
+    
+}
+.section{
+ display: flex;align-items: center;
+}
+
+.section span{
+ font-size: 1.5rem;color: aliceblue;
+}
+
+.navLink{
+    margin: 0 .3rem;
+}
+.navLink button{
+    background:none;
+    border: none;
+    font-size: 1.1rem;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: beige;
+}
+.navLink button:active{
+    color: chartreuse;
+}
+.socialM{
+    margin: 0 1rem;align-items: center;
+}
+
+.socilLink{
+    margin: 0 .2rem;
+}
+
+.socilLink button{
+    background: none;border: none;font-size: 1.5rem;color: cornsilk;
+}
+.socilLink button:hover{
+    color: rgb(71, 71, 221);
+}
+/* .navHandler{
+    display: none;
+} */
+.navHandler{
+    background: none;border: none;
+    font-size: 1.4rem;
+    color: aliceblue; display: none;
+}
+.navClose{
+    background: none;border: none;
+    font-size: 1.4rem;
+    color: aliceblue; display: none;
+}
+
+#home{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image{
+    padding: 5rem;
+    width: 50%;
+    text-align: center;
+}
+
+.image img{
+    width: 20rem;
+    border-radius: 50%;border: 2rem solid rgba(3, 232, 253, 0.234);
+}
+.image img:hover{
+    box-shadow: 0 1rem 2rem rgba(75, 72, 72, 0.616);
+}
+
+
+.text h1{
+    font-size: 5rem;font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin: .5rem;
+}
+.text h1 span{
+    color: aqua;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    
+}
+.text h2{
+    font-size: 1.5rem;font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: .5rem;
+    color: aliceblue;
+}
+
+.text button{
+    margin: 1rem auto;
+    border: none;
+    font-size: 1.1rem;
+    padding: 1.2rem 2.1rem;border-radius: 5rem;
+    background-color: rgba(12, 218, 218, 0.902);transition: all .3s ease-in-out;color: rgb(255, 255, 255);
+    font-weight: 600;
+   
+}
+.text button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+.homeCard{
+    display: flex;flex-direction: row;justify-content: center; align-items: center;flex-wrap: wrap;
+}
+
+.card1{
+    padding: 2.5rem;margin: 1rem;
+    width:20rem;
+    border-radius: 1rem;background-color: rgb(76, 64, 150);
+}
+
+.card1 img{
+    width: 4rem;
+    margin: .8rem;
+}
+
+.card1 h2{
+    font-size: 1.4rem;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: .8rem;
+}
+
+.card1 p{
+    font-size: 1.07rem;
+    font-weight: lighter;
+    color: rgba(240, 248, 255, 0.595);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: .8rem;
+}
+
+
+#about{
+    margin: 5rem;
+}
+#about h2{
+    color: rgb(103, 86, 190);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;
+    margin: 1.5rem;
+}
+
+.aboutH1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;
+}
+
+.aboutSection{
+    display: flex;flex-direction: row;justify-content: center;
+    align-items: center;
+}
+
+.aboutImg{
+    width: 50%;text-align: center;
+}
+.aboutImg .img1{
+    width: 22rem;border-radius: 1rem;
+}
+.aboutImg .img2{
+    width: 17rem;border-radius: 1rem;
+    position: relative;
+    top: -15rem;
+    left: -2rem;
+}
+
+.aboutImg .tx{
+    position: relative;
+    font-size: 1.3rem;
+    color: aliceblue;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: -14rem;
+    right: 2rem;
+}
+.tx span{
+    font-size: 3.2rem;
+    color: aqua;font-weight: 700;
+}
+.aboutDsc{
+    width: 50%;text-align: left;
+}
+
+.aboutDscH1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;
+}
+
+.aboutDsc p{
+    font-size: 1.1rem;
+    color:rgba(255, 255, 255, 0.646) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;width: 80%;
+}
+
+.aboutDsc .details{
+    display: flex;flex-direction: row;
+    border: 2px solid white;
+    margin: 1rem;border-radius: 1rem;width: 80%;
+}
+.details .detail2{
+    border-left: 1px solid white;margin: 0; padding: 1rem;
+
+}
+.details .detail1{
+    border-right: 1px solid white;
+    padding: 1rem;
+    margin-right: 0;
+}
+.details .detail1 h3{
+  color: aliceblue;
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: .3rem;
+}
+
+.details .detail2 h3{
+    color: aliceblue;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .3rem;
+  }
+
+  .details .detail1 p{
+    color: rgba(240, 248, 255, 0.595);
+    font-size: 1.1rem;width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .3rem;
+  }
+  .details .detail2 p{
+    color: rgba(240, 248, 255, 0.595);
+    font-size: 1.1rem;width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .3rem;
+  }
+
+  .cvBtn{
+    margin: 1rem auto;
+    border: none;
+    font-size: 1.1rem;
+    padding: 1.2rem 2.1rem;border-radius: 5rem;
+    background-color: rgba(12, 218, 218, 0.902);transition: all .3s ease-in-out;color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+
+ .cvBtn:hover{
+    background-color: rgba(255, 255, 255, 0.902);color: black;
+ }
+
+@media screen and (max-width:900px) {
+    .navber{
+        background: none;
+        display: flex;flex-direction: column;
+    }
+    /* .logo{
+        width: 13rem;
+        position: relative;top: -3.5rem;left: 0;
+    } */
+
+
+    .logoBars{
+        display: flex;
+        justify-content: space-between;
+         width: 100%;border-bottom: .1px solid rgb(255, 255, 255);backdrop-filter: blur(1rem);
+    }
+    .navHandler{
+        background: none;border: none;
+        font-size: 1.4rem;
+        color: aliceblue; display: block;
+    }
+    .section{ 
+        background: linear-gradient(to right, rgb(62, 49, 145), rgb(30, 78, 30),rgb(106, 40, 103),rgb(40, 95, 106));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem; border-radius: 1rem;
+        padding: 2rem;
+        display: none;
+       }
+       .section span{
+        display: none;
+       }
+
+    .navs{
+        display: flex;
+        flex-direction: column;align-items: center;
+        width: 20rem;
+        backdrop-filter: blur(1rem);
+        border-radius: 1rem;
+    }
+    .socialM{
+        width: 12rem;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .navLink{
+        margin: 1rem;
+    }
+
+    #home{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .image{
+        width: 100%;
+    }
+
+    .aboutSection{
+        display: flex;flex-direction: column;
+    }
+
+   
+    .aboutImg{
+        width: 100%;text-align: left;
+    }
+    .aboutImg .img1{
+        width: 22rem;border-radius: 1rem;
+    }
+  .aboutImg .img2{display: none;}
+
+  .aboutDsc{
+    width: 100%;text-align: left;margin: 2rem;
+}
+
+
+.aboutDsc p{
+    font-size: 1.1rem;
+    color:rgba(255, 255, 255, 0.646) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.details .detail1 p{
+    color: rgba(240, 248, 255, 0.595);
+    font-size: 1.1rem;width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .3rem;
+  }
+  .details .detail2 p{
+    color: rgba(240, 248, 255, 0.595);
+    font-size: 1.1rem;width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .3rem;
+  }
+
+
+
+
+}
+
+
+@media screen and (max-width:1150px){
+    .text h1{
+        font-size: 3.8rem;font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        margin: .5rem;
+    }
+    .aboutDsc p{
+        font-size: 1.1rem;
+        color:rgba(255, 255, 255, 0.646) ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;width: 100%;margin: 1rem;
+    }
+    .aboutDsc .details{
+        display: flex;flex-direction: row;
+        border: 2px solid white;
+        margin: 1rem;border-radius: 1rem;width: 90%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .image img{
+        width: 14rem;text-align: center;
+        border-radius: 50%;border: 1rem solid rgba(3, 232, 253, 0.234);
+       
+    }
+    .text h1{
+        font-size: 3.3rem;font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        margin: .5rem;
+    }
+}
